@@ -19,7 +19,7 @@ public:
 	}
 };
 int main() {
-	int a[] = { 1,2,3,4,5 };
+	int a[] = { 1,2,3,4,5,6 };
 	Calculator* p = new GoodCalc();
 	cout << p->add(2, 3) << endl;
 	cout << p->subtract(2, 3) << endl;
