@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainpage"
+    android:layout_width="360dp"
+    android:layout_height="800dp"
+    android:background="#F1F1F1">
+    <View
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:background="#FFFFFF"/>
+<!--로고 클릭시 메인화면으로 이동-->
+    <ImageButton
+        android:id="@+id/applogo"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/logo"/>
+
+<!--검색버튼 클릭시 검색화면 출력-->
+    <Button
+        android:id="@+id/shbutton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/searchbutton"/>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+    />
+<!--북마크 버튼 클릭시 아래 빈 공간에 자기가 북마크한 기사들 정렬-->
+    <ImageButton
+        android:id="@+id/bmbutton"
+        android:layout_width="33dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/bookmark"  />
+<!--정치 버튼 클릭시 아래 빈 공간에 정치 관련 기사들 정렬-->
+    <ImageButton
+        android:id="@+id/plbutton"
+        android:layout_width="22dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/politic" />
+    <!--경제 버튼 클릭시 아래 빈 공간에 정치 관련 기사들 정렬-->
+    <ImageButton
+        android:id="@+id/ecbutton"
+        android:layout_width="22dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/economy"  />
+    <!--IT/과학 버튼 클릭시 아래 빈 공간에 정치 관련 기사들 정렬-->
+    <ImageButton
+        android:id="@+id/itsbutton"
+        android:layout_width="37dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/itscience"  />
+<!--사회 버튼 클릭시 아래 빈 공간에 정치 관련 기사들 정렬-->
+    <ImageButton
+        android:id="@+id/scbutton"
+        android:layout_width="22dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/society"  />
+<!--연애 버튼 클릭시 아래 빈 공간에 정치 관련 기사들 정렬-->
+    <ImageButton
+        android:id="@+id/dtbutton"
+        android:layout_width="22dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/dating"  />
+<!--스포츠 버튼 클릭시 아래 빈 공간에 정치 관련 기사들 정렬-->
+    <ImageButton
+        android:id="@+id/spbutton"
+        android:layout_width="33dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="294dp"
+        android:layout_marginTop="103dp"
+        android:background="@drawable/sports"  />
+<!--위에 버튼 클릭시 아래 빈 공간에 키워드 관련 기사들 정렬-->
+    <View
+        android:layout_width="360dp"
+        android:layout_height="610dp"
+        android:layout_marginTop="130dp"
+        android:background="#FFFFFF"/>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="740dp"
+        android:background="#FFFFFF"/>
+    <!--검색버튼 클릭시 검색 창으로 이동 (좌우로 스와이프 자연스럽게)-->
+    <Button
+        android:id="@+id/shbutton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="760dp"
+        android:background="@drawable/searchbutton"/>
+    <!--홈 버튼 클릭시 홈 화면으로 이동 (좌우로 스와이프 자연스럽게)-->
+    <Button
+        android:id="@+id/homehbutton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="760dp"
+        android:background="@drawable/homebutton"/>
+    <!--버튼 클릭시 메뉴 페이지로 이동 (좌우로 스와이프 자연스럽게)-->
+    <Button
+        android:id="@+id/menubutton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="760dp"
+        android:background="@drawable/menubutton"/>
+</RelativeLayout>
